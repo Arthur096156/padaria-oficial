@@ -1,0 +1,15 @@
+iframe{
+    width: 100%;
+    height: 500px;
+    border: none;
+    border-radius: 20%;
+    margin-top: 30px;
+}
+H1{
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    color: rgb(105, 105, 105);
+}
+body{
+    background-image: url("Padaria_tradicional_brasileira_f…_202605121020.jpeg");
+}
