@@ -1,8 +1,18 @@
 /* ===== Reset e tokens ===== */
 *, *::before, *::after { box-sizing: border-box; }
 :root {
-  background-image: url("background.jpg");
- 
+  --primary: #8B4513;
+  --primary-dark: color-mix(in oklab, #8b451369 80%, black);
+  --light: #F5DEB3;
+  --text: #1a1a1a;
+  --muted: #555;
+  --bg: #ffffff;
+  --surface: #f7f7f7;
+  --border: #e0e0e0;
+  --radius: 12px;
+  --focus: #005fcc;
+  --shadow: 0 4px 12px rgba(0,0,0,.08);
+  --container: 1100px;
 }
 
 html { scroll-behavior: smooth; }
@@ -13,10 +23,6 @@ body {
   background: var(--bg);
   line-height: 1.6;
   font-size: 16px;
-  body {
-  
-}
-
 }
 
 /* ===== Acessibilidade ===== */
@@ -47,7 +53,7 @@ body {
   color: #fff; text-decoration: none; font-weight: 700; font-size: 1.25rem;
   display: inline-flex; align-items: center; gap: .5rem;
 }
-.logo-emoji { font-size: 1.75rem; }
+.logo-emoji { font-size: 1.5rem; }
 .nav-list {
   list-style: none; margin: 0; padding: 0;
   display: flex; gap: 1.5rem;
@@ -122,7 +128,7 @@ body {
 
 /* ===== Footer ===== */
 .site-footer {
-  background: #1a1a1a; color: #fff; padding: 2rem 0; text-align: center; margin-top: 2rem;
+  background: #000000; color: #fff; padding: 2rem 0; text-align: center; margin-top: 2rem;
 }
 
 /* ===== Responsive ===== */

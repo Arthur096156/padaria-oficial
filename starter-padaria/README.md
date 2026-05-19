@@ -1,4 +1,4 @@
-# Padaria Pão Quente — Starter (Módulos 11-13)
+# Padaria Sabor do Forno — Starter (Módulos 11-13)
 
 Projeto inicial para o trabalho em grupo do curso Web Design Híbrido.
 
